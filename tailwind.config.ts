@@ -8,10 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        title:["Rye","sans"]
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      
+      
     },
   },
   plugins: [],
